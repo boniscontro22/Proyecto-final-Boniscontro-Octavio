@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../imagenes/css-pattern-by-magicpattern\ \(3\).png);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: black;
+    background-color: burlywood;
+    padding: 15px;
+}
+.barra{
+    padding: 0;
+    list-style: none;
+    display: flex;
+    border: 1px solid grey;
+}
+nav ul li {
+    flex: auto;
+    padding: 10px;
+    background-color:burlywood;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li:hover{
+    background-color: bisque;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    border-top:1px solid #ccc ;
+    padding: 5px;
+    text-align: center;
+}
+.tabla{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 5px;
+    width: 60%;
+    margin: 20px auto;
+    }
+
+.header{
+    background-color: brown;
+    color: black;
+    padding: 10px;
+    text-align: center;
+}
+.posicion,
+.equipo,
+.puntos{
+    border: 1px solid grey;
+    padding: 10px;
+    text-align: center;
+}
+.posicion{
+    background-color: crimson;
+}
