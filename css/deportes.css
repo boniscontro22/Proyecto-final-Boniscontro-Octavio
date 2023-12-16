@@ -65,3 +65,44 @@ footer{
 .posicion{
     background-color: crimson;
 }
+h2{
+    text-align: center;
+}
+.goleadores{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 5px;
+    width: 60%;
+    margin: 20px auto;
+    }
+
+.header{
+    background-color: brown;
+    color: black;
+    padding: 10px;
+    text-align: center;
+}
+.posicion,
+.jugador,
+.goles{
+    border: 1px solid grey;
+    padding: 10px;
+    text-align: center;
+}
+.posicion{
+    background-color: crimson;
+}
+.izquierda{
+    display: flex;
+    flex-wrap: wrap;
+}
+aside{
+    flex: 50%;
+    height: 400px;
+    background-color: yellow;
+}
+.derecha{
+    flex: 50%;
+    height: 400px;
+    background-color: blue;
+}
