@@ -1,12 +1,12 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: url(../imagenes/css-pattern-by-magicpattern\ \(3\).png);
+    background-color:#7F8C8D;
     font-family: Arial, Helvetica, sans-serif;
 }
 h1{
     color: black;
-    background-color: burlywood;
+    background-color:#555;
     padding: 15px;
 }
 .barra{
@@ -18,25 +18,26 @@ h1{
 nav ul li {
     flex: auto;
     padding: 10px;
-    background-color:burlywood;
+    background-color:#555;
     color: black;
     text-decoration: none;
     font-size: 20px;
     text-align: center;
 }
 nav ul li a{
-    color: white;
+    color:  black;
     text-decoration: none;
 }
 nav ul li:hover{
-    background-color: bisque;
+    background-color: #F5F5F5;
 }
 footer{
     position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: white;
+    color: black;
+    background-color: #555;
     border-top:1px solid #ccc ;
     padding: 5px;
     text-align: center;
@@ -58,7 +59,7 @@ footer{
 .posicion,
 .equipo,
 .puntos{
-    border: 1px solid grey;
+    border: 1px solid black;
     padding: 10px;
     text-align: center;
 }
@@ -85,7 +86,7 @@ h2{
 .posicion,
 .jugador,
 .goles{
-    border: 1px solid grey;
+    border: 1px solid black;
     padding: 10px;
     text-align: center;
 }
@@ -95,16 +96,6 @@ h2{
 .izquierda{
     display: flex;
     flex-wrap: wrap;
-}
-aside{
-    flex: 50%;
-    height: 400px;
-    background-color: yellow;
-}
-.derecha{
-    flex: 50%;
-    height: 400px;
-    background-color: blue;
 }
 .contenedorvideo{
     display: flex;
@@ -117,9 +108,7 @@ aside{
 }
 .video iframe{ 
     width: 100%;
-    height: 250px;
-    border: 1px solid black;
-    border-radius: 5px; 
+    height: 150px; 
 }
 
 
