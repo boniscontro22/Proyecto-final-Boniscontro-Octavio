@@ -1,15 +1,15 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #F2D9B6 ;
   }
   
   .menu {
     width: 80%;
     margin: 0 auto;
     padding: 20px;
-    background-color: #fff;
+    background-color:#D9BF8E ;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
@@ -38,8 +38,8 @@ body {
     padding-bottom: 20px;
   }
   footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #F2D9B6 ;
+    color: #333;
     text-align: center;
     padding: 20px 0;
   }
@@ -50,7 +50,7 @@ body {
   }
   
   .combo {
-    background-color: #f9f9f9;
+    background-color: #F2D9B6 ;
     padding: 20px;
     border-radius: 8px;
     text-align: center;
@@ -86,7 +86,7 @@ body {
   
   .btn {
     display: inline-block;
-    background-color: #333;
+    background-color: #A64C25;
     color: #fff;
     padding: 10px 20px;
     text-decoration: none;

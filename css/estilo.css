@@ -1,9 +1,9 @@
-@charset "UTF-8";
-/* Estilos generales */
+
 body {
-  font-family: Arial, sans-serif;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin: 0;
   padding: 0;
+  background-color: #D9BF8E;
 }
 
 .container {
@@ -12,7 +12,7 @@ body {
 }
 
 header {
-  background-color: #f2f2f2;
+  background-color:#F2D9B6 ;
   padding: 20px 0;
   text-align: center;
 }
@@ -38,8 +38,8 @@ section {
 }
 
 footer {
-  background-color: #333;
-  color: #fff;
+  background-color:#F2D9B6;
+  color: #333;
   text-align: center;
   padding: 20px 0;
 }
@@ -47,7 +47,7 @@ footer {
 /* Estilos para el botón */
 .btn {
   display: inline-block;
-  background-color: #333;
+  background-color: #A64C25;
   color: #fff;
   padding: 10px 20px;
   text-decoration: none;
