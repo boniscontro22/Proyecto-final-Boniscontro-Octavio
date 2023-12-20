@@ -43,4 +43,59 @@ body {
     text-align: center;
     padding: 20px 0;
   }
+  .combos-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .combo {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .combo h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .combo p {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  
+  .combo ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    margin-bottom: 15px;
+  }
+  
+  .combo ul li {
+    margin-bottom: 5px;
+  }
+  
+  .price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #555;
+  }
+  
   
