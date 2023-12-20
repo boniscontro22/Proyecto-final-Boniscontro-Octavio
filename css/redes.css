@@ -1,10 +1,11 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-color:#F2D9B6 ;
   }
   
   header, main {
@@ -39,11 +40,11 @@ body {
   
   .social-links ul li a:hover {
     transform: scale(1.1);
-    color: #ff6b6b;
+    color: #A64C25 ;
   }
   
   footer {
-    background-color: #333;
+    background-color: #D9BF8E;
     color: #fff;
     padding: 10px;
     margin-top: auto;
