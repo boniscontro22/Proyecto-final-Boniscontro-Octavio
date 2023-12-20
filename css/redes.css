@@ -50,5 +50,9 @@ body {
     margin-top: auto;
     text-align: center;
   }
+  img{
+    max-width: 150px;
+    height: auto;
+  }
   
   
