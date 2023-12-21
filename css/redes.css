@@ -54,5 +54,11 @@ body {
     max-width: 150px;
     height: auto;
   }
+
+  @media (max-width:768px){
+    body{
+        background:#555;
+    }
+  }
   
   
