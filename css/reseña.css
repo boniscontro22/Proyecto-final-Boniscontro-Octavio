@@ -11,7 +11,12 @@ body {
     padding: 20px;
     text-align: center;
   }
-  
+  main{
+    background-color: #F2D9B6;
+  }
+  .card-body{
+    background-color: #D9BF8E;
+  }
   h1 {
     margin: 0;
   }
@@ -29,30 +34,7 @@ body {
     bottom: 0;
     width: 100%;
   }
-  
-  .review {
-    margin-bottom: 30px;
-    border: 1px solid #ccc;
-    padding: 15px;
-  }
-  
-  .review-info {
-    margin-bottom: 10px;
-  }
-  
-  .review-info h2 {
-    margin-top: 0;
-    font-size: 18px;
-  }
-  
-  .date {
-    color: black;
-    font-style: italic;
-  }
-  
-  .review-text {
-    line-height: 1.6;
-  }
+
   nav ul {
     list-style: none;
     padding: 0;
