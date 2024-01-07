@@ -11,12 +11,6 @@ body {
     padding: 20px;
     text-align: center;
   }
-  main{
-    background-color: #F2D9B6;
-  }
-  .card-body{
-    background-color: #D9BF8E;
-  }
   h1 {
     margin: 0;
   }
@@ -49,7 +43,6 @@ body {
     text-decoration: none;
     color: #333;
   }
-  
   
   @media (max-width: 768px) {
     body {
